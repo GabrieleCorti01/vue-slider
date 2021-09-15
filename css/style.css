@@ -27,6 +27,11 @@ pre{
     font-size: 4rem;
 }
 
+.previous-image:hover, .next-image:hover{
+    background-color: maroon;
+    color: grey;
+}
+
 .image-slider{
     width: calc(100% - 120px);
     background-color: darkslateblue;

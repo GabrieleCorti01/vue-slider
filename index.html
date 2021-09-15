@@ -19,15 +19,15 @@
     <div class="container" id="app">
         <div class="wrapper">
             <div class="previous-image">
-                <i class="fas fa-caret-left"></i>
+                <i class="fas fa-caret-left" @click="previousImage()"></i>
             </div>
 
             <div class="image-slider">
-                <img src="img/nba1.jpg" alt="img-1">
+                <img :src="images[imageIndex].source" alt="images[0].alt">
             </div>
 
             <div class="next-image ">
-                <i class="fas fa-caret-right"></i>
+                <i class="fas fa-caret-right" @click="nextImage()"></i>
             </div>
         </div>
     
