@@ -1,0 +1,45 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+pre{
+    font-size: 2.2em;
+}
+
+.wrapper{
+    width: 1000px;
+    height: 650px;
+    margin: auto;
+    background-color: beige;
+    display: flex;
+}
+
+.previous-image, .next-image{
+    width: 60px;
+    height: 100%;
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+}
+
+.image-slider{
+    width: calc(100% - 120px);
+    background-color: darkslateblue;
+    height: 100%;
+}
+
+.image-slider img{
+    height: 100%;
+    width: 100%;
+}
+
+#app{
+    height: 100vh;
+    background-color: darkgrey;
+    display: flex;
+}
